@@ -1,0 +1,55 @@
+*{
+    background-color: #fad77f;
+    box-sizing: border-box;
+    text-align: center;
+}
+.greet{
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+    color: #2a9d8f;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+.winner{
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: #7f4924;
+    /* visibility: hidden; */
+}
+.turn{
+    font-family:monospace;
+    font-size: 40px;
+    color: #7f4924;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #7f4924;
+    background-color:#2a9d8f ;
+    
+}
+.game{
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap:5px;
+}
+.reset{
+    width: 80px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px solid red;
+    height: 50px;
+    margin: 30px;
+}
+.reset:hover{
+    background-color: azure;
+    color: black;
+    transition: 0s;
+    
+}
